@@ -3,8 +3,9 @@ package com.codegym.service;
 import com.codegym.repository.CurrencyRepository;
 import com.codegym.repository.ICurrencyRepository;
 
-public class CurrencyService implements ICurrencyService{
-    ICurrencyRepository iCurrencyRepository=new CurrencyRepository();
+public class CurrencyService implements ICurrencyService {
+    ICurrencyRepository iCurrencyRepository = new CurrencyRepository();
+
     @Override
     public double convertUSD(double vND) {
         return iCurrencyRepository.convertUSD(vND);

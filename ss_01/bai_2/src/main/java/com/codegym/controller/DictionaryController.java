@@ -12,15 +12,16 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RequestMapping("dictionary")
 public class DictionaryController {
     IDictionaryRepository dictionaryRepository = new DictionaryRepository();
+
     @GetMapping("")
-    private String show(){
+    private String show() {
         return "index2";
     }
 
     @GetMapping("search")
     private String search(@RequestParam(name = "tiengViet") String string, Model model) {
         model.addAttribute("result", dictionaryRepository.search(string));
-        model.addAttribute("name",string);
+        model.addAttribute("name", string);
         return "index2";
     }
 
