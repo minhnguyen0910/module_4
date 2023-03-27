@@ -12,8 +12,8 @@
 </head>
 <body>
 <form action="/dictionary/search/">
-    <span>nhập</span>
-    <input type="text" name="tiengViet" value="${name}">
+    <h2>Từ điển</h2>
+    <input type="text" name="vietnamese" value="${name}">
     <button type="submit">Kết quả</button>
     <p>${result}</p>
 </form>

@@ -19,7 +19,7 @@ public class DictionaryController {
     }
 
     @GetMapping("search")
-    private String search(@RequestParam(name = "tiengViet") String string, Model model) {
+    private String search(@RequestParam(name = "vietnamese") String string, Model model) {
         model.addAttribute("result", dictionaryRepository.search(string));
         model.addAttribute("name", string);
         return "index2";
