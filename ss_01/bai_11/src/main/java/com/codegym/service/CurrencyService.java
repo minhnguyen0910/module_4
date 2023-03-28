@@ -1,6 +1,6 @@
-package com.codegym.repository;
+package com.codegym.service;
 
-public class CurrencyRepository implements ICurrencyRepository {
+public class CurrencyService implements ICurrencyService {
     @Override
     public double convertUSD(double vND) {
         return vND / 24000;

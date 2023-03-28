@@ -19,7 +19,7 @@ public class CurrencyController {
     }
 
     @GetMapping("convert")
-    private String convert(@RequestParam(name = "input") String uSD, Model model) {
+    private String convert(@RequestParam(name = "usd") String uSD, Model model) {
         double uSDS = Double.parseDouble(uSD);
         double result = iCurrencyService.convertVND(uSDS);
         model.addAttribute("result", result);

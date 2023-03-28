@@ -24,6 +24,7 @@
     </select>
     <input type="number" name="secondNumber" value="${second}" step="any">
     <button type="submit">=</button>
+    <p>${mess}</p>
     <span>${result}</span>
 
 </form>

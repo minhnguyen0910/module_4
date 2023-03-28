@@ -1,8 +1,8 @@
 package com.codegym.model;
 
 public class Currency {
-    double vND;
-    double uSD;
+    private double vND;
+    private double uSD;
 
     public Currency(double vND, double USD) {
         this.vND = vND;

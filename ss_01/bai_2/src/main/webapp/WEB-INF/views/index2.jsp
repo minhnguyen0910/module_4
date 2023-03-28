@@ -13,7 +13,7 @@
 <body>
 <form action="/dictionary/search/">
     <h2>Từ điển</h2>
-    <input type="text" name="vietnamese" value="${name}">
+    <input type="text" name="vietnamese" value="${vietnamese}">
     <button type="submit">Kết quả</button>
     <p>${result}</p>
 </form>

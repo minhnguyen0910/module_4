@@ -25,8 +25,9 @@
     <hr>
     <button type="submit">Submit</button>
 </form>
+<h3>Result</h3>
 <c:forEach items="${condiment}" var="ingredient">
-    <p>${ingredient}</p>
+    <span>${ingredient}</span>
 </c:forEach>
 </body>
 </html>

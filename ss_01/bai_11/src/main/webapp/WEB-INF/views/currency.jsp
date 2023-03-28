@@ -10,7 +10,7 @@
 <head>
     <form action="/currency/convert">
         <span>Nhap</span>
-        <input type="number" name="input">
+        <input type="number" name="usd">
         <button type="submit">Enter</button>
         <p>${result}</p>
     </form>

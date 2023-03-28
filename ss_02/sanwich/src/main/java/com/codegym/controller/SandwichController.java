@@ -17,7 +17,7 @@ public class SandwichController {
     }
 
     @GetMapping("save")
-    public String save(@RequestParam("condiment") List<String> condiment, Model model) {
+    public String save(@RequestParam(value = "condiment", required = false) List<String> condiment, Model model) {
         model.addAttribute("condiment", condiment);
         return "index";
     }
