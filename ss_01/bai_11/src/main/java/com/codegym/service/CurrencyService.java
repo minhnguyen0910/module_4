@@ -1,18 +1,13 @@
-package com.codegym.service;
+package com.codegym.repository;
 
-import com.codegym.repository.CurrencyRepository;
-import com.codegym.repository.ICurrencyRepository;
-
-public class CurrencyService implements ICurrencyService {
-    ICurrencyRepository iCurrencyRepository = new CurrencyRepository();
-
+public class CurrencyRepository implements ICurrencyRepository {
     @Override
     public double convertUSD(double vND) {
-        return iCurrencyRepository.convertUSD(vND);
+        return vND / 24000;
     }
 
     @Override
     public double convertVND(double uSD) {
-        return iCurrencyRepository.convertVND(uSD);
+        return uSD * 24000;
     }
 }
