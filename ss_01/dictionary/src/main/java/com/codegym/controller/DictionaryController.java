@@ -1,6 +1,6 @@
 package com.codegym.controller;
 
-import com.codegym.service.DictionaryService;
+import com.codegym.service.impl.DictionaryService;
 import com.codegym.service.IDictionaryService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

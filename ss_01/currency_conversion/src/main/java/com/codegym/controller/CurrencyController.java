@@ -1,6 +1,6 @@
 package com.codegym.controller;
 
-import com.codegym.service.CurrencyService;
+import com.codegym.service.impl.CurrencyService;
 import com.codegym.service.ICurrencyService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

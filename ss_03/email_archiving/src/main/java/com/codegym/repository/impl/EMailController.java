@@ -1,4 +1,4 @@
-package com.codegym.repository.iml;
+package com.codegym.repository.impl;
 
 import com.codegym.repository.IEMailController;
 

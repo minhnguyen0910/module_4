@@ -1,7 +1,7 @@
 package com.codegym.service.imp;
 
 import com.codegym.repository.IEMailController;
-import com.codegym.repository.iml.EMailController;
+import com.codegym.repository.impl.EMailController;
 import com.codegym.service.IEmailService;
 
 public class EmailService implements IEmailService {

@@ -1,4 +1,4 @@
-package com.codegym.service;
+package com.codegym.service.impl;
 
 public class CalculatorService implements ICalculatorService {
     public double calculator(double first, double second, String calculation) {

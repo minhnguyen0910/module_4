@@ -1,6 +1,6 @@
 package com.codegym.controller;
 
-import com.codegym.service.CalculatorService;
+import com.codegym.service.impl.CalculatorService;
 import com.codegym.service.ICalculatorService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

@@ -1,4 +1,6 @@
-package com.codegym.service;
+package com.codegym.service.impl;
+
+import com.codegym.service.ICurrencyService;
 
 public class CurrencyService implements ICurrencyService {
     @Override

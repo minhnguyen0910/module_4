@@ -1,4 +1,6 @@
-package com.codegym.repository;
+package com.codegym.repository.impl;
+
+import com.codegym.repository.IDictionaryRepository;
 
 import java.security.Signature;
 import java.util.ArrayList;
