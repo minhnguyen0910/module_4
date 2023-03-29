@@ -21,7 +21,7 @@
 <h1>Settings</h1>
 <hr>
 <form:form action="/email/form" method="post" modelAttribute="setting">
-    <table style="font-size: 20px" class="table">
+    <table style="font-size: 20px" class="table table-dark table-striped">
         <tr>
             <th>Language</th>
             <td><form:select path="language">
@@ -44,13 +44,13 @@
         </tr>
         <tr>
             <th>Signature</th>
-            <td><form:input type="text" path="signature"/></td>
+            <td><form:textarea type="text" path="signature"/></td>
         </tr>
         <tr>
             <th></th>
             <td>
-                <button type="submit">Update</button>
-                <input type="reset" value="Cancel">
+                <button type="submit" class="btn btn-outline-warning">Update</button>
+                <input type="reset" value="Cancel" class="btn btn-outline-warning">
             </td>
         </tr>
     </table>
