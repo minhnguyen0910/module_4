@@ -1,7 +1,7 @@
 package com.codegym.service;
 
 public interface ICurrencyService {
-    public double convertUSD(double VND);
+    double convertUSD(double VND);
 
-    public double convertVND(double USD);
+    double convertVND(double USD);
 }
