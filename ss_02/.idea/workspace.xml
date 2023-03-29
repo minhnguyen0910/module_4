@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f08a392-c74c-4323-a2ea-248ea3b68f15" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../ss_01/bai_11/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss_01/bai_11/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss_01/bai_11/src/main/java/com/codegym/controller/CurrencyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss_01/bai_11/src/main/java/com/codegym/controller/CurrencyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss_01/bai_11/src/main/java/com/codegym/model/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss_01/bai_11/src/main/java/com/codegym/model/Currency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss_01/bai_11/src/main/java/com/codegym/service/CurrencyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss_01/bai_11/src/main/java/com/codegym/service/CurrencyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss_01/bai_11/src/main/java/com/codegym/service/ICurrencyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss_01/bai_11/src/main/java/com/codegym/service/ICurrencyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss_01/bai_11/src/main/webapp/WEB-INF/views/currency.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ss_01/bai_11/src/main/webapp/WEB-INF/views/currency.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss_01/bai_2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss_01/bai_2/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss_01/bai_2/src/main/java/com/codegym/controller/DictionaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ss_01/bai_2/src/main/java/com/codegym/controller/DictionaryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ss_01/bai_2/src/main/webapp/WEB-INF/views/index2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ss_01/bai_2/src/main/webapp/WEB-INF/views/index2.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="6f08a392-c74c-4323-a2ea-248ea3b68f15" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +24,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ADMIN/Desktop/module_4/module_4/ss_02/sanwich"
+    "last_opened_file_path": "C:/Users/ADMIN/Desktop/module_4/module_4/ss_02"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -46,10 +36,22 @@
       <option name="presentableId" value="Default" />
       <updated>1679992067294</updated>
       <workItem from="1679992068515" duration="42000" />
+      <workItem from="1680057536142" duration="137000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
