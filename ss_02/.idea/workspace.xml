@@ -2,7 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f08a392-c74c-4323-a2ea-248ea3b68f15" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss_04/product_manage/product/src/main/java/com/codegym/product/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss_04/product_manage/product/src/main/java/com/codegym/product/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss_04/product_manage/product/src/main/java/com/codegym/product/repository/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss_04/product_manage/product/src/main/java/com/codegym/product/repository/impl/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss_04/product_manage/product/src/main/java/com/codegym/product/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss_04/product_manage/product/src/main/java/com/codegym/product/service/impl/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss_04/product_manage/product/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss_04/product_manage/product/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss_04/product_manage/product/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss_04/product_manage/product/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss_04/thuc_hanh/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss_04/thuc_hanh/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss_04/thuc_hanh/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss_04/thuc_hanh/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss_04/thuc_hanh/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss_04/thuc_hanh/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss_04/thuc_hanh/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss_04/thuc_hanh/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss_04/thuc_hanh/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss_04/thuc_hanh/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss_04/thuc_hanh/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss_04/thuc_hanh/src/main/java/com/codegym/cofiguration/AppConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss_04/thuc_hanh/src/main/java/com/codegym/cofiguration/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss_04/thuc_hanh/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ADMIN/Desktop/module_4/module_4/ss_01/currency_conversion"
+    "last_opened_file_path": "C:/Users/ADMIN/Desktop/module_4/module_4/ss_02/caculator"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -41,6 +64,7 @@
       <workItem from="1680057536142" duration="137000" />
       <workItem from="1680091957719" duration="10000" />
       <workItem from="1680091986737" duration="20000" />
+      <workItem from="1680149963185" duration="16000" />
     </task>
     <servers />
   </component>
