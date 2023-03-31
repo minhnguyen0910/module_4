@@ -1,9 +1,18 @@
-package com.codegym.product.model;
+package com.codegym.model;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "product")
 public class Product {
+    @Id
+    @Column(name = "id")
     Integer id;
+    @Column(name = "name_product")
     String name;
+    @Column(name = "evaluate")
     String evaluate;
+    @Column(name = "price")
     Double price;
 
     public Product() {

@@ -1,8 +1,8 @@
-package com.codegym.product.controller;
+package com.codegym.controller;
 
-import com.codegym.product.model.Product;
-import com.codegym.product.service.IProductService;
-import com.codegym.product.service.impl.ProductService;
+import com.codegym.model.Product;
+import com.codegym.service.IProductService;
+import com.codegym.service.impl.ProductService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;

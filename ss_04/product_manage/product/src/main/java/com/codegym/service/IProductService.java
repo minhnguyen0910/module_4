@@ -1,10 +1,10 @@
-package com.codegym.product.repository;
+package com.codegym.service;
 
-import com.codegym.product.model.Product;
+import com.codegym.model.Product;
 
 import java.util.List;
 
-public interface IProductRepository {
+public interface IProductService {
     List<Product> findAll();
 
     void deleteByID(Integer id);
@@ -12,6 +12,8 @@ public interface IProductRepository {
     void create(Product product);
 
     Product findByID(Integer id);
+
+    Product searchByID(Integer id);
 
     List<Product> searchByName(String name);
 
