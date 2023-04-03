@@ -45,11 +45,22 @@ public class ProductRepository implements IProductRepository {
     @Override
 
     public void edit(Product product) {
-//        for (Product product1 : list) {
-//            if (product1.getId().equals(product.getId())) {
-//                list.set(list.indexOf(product1), product);
-//                break;
-//            }
-//        }
+        EntityTransaction entityTransaction = BaseRepository.entityManager.getTransaction();
+        entityTransaction.begin();
+        Product product1 = findById(product.getId());
+        product1.setProductName(product.getProductName());
+        product1.setProductPrice(product.getProductPrice());
+        product1.setProductDetail(product.getProductDetail());
+        BaseRepository.entityManager.merge(product1);
+        entityTransaction.commit();
+    }
+
+    @Override
+    public void delete(Integer productID) {
+        EntityTransaction entityTransaction = BaseRepository.entityManager.getTransaction();
+        entityTransaction.begin();
+        Product product = findById(productID);
+        BaseRepository.entityManager.remove(product);
+        entityTransaction.commit();
     }
 }
