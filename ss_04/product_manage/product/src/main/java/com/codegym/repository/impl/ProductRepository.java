@@ -47,10 +47,10 @@ public class ProductRepository implements IProductRepository {
     public void edit(Product product) {
         EntityTransaction entityTransaction = BaseRepository.entityManager.getTransaction();
         entityTransaction.begin();
-        Product product1 = findById(product.getId());
-        product1.setProductName(product.getProductName());
-        product1.setProductPrice(product.getProductPrice());
-        product1.setProductDetail(product.getProductDetail());
+        Product product1 = findByID(product.getId());
+        product1.setName(product.getName());
+        product1.setPrice(product.getPrice());
+        product1.setEvaluate(product.getEvaluate());
         BaseRepository.entityManager.merge(product1);
         entityTransaction.commit();
     }
@@ -59,7 +59,7 @@ public class ProductRepository implements IProductRepository {
     public void delete(Integer productID) {
         EntityTransaction entityTransaction = BaseRepository.entityManager.getTransaction();
         entityTransaction.begin();
-        Product product = findById(productID);
+        Product product = findByID(productID);
         BaseRepository.entityManager.remove(product);
         entityTransaction.commit();
     }

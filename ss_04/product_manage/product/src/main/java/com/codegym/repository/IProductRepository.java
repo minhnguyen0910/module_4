@@ -7,7 +7,7 @@ import java.util.List;
 public interface IProductRepository {
     List<Product> findAll();
 
-    void deleteByID(Integer id);
+    void delete(Integer productID);
 
     void create(Product product);
 
