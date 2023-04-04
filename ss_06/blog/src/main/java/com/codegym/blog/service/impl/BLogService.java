@@ -4,6 +4,8 @@ import com.codegym.blog.model.BLog;
 import com.codegym.blog.repository.IBLogRepository;
 import com.codegym.blog.service.IBLogService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -14,8 +16,8 @@ public class BLogService implements IBLogService {
     private IBLogRepository ibLogRepository;
 
     @Override
-    public List<BLog> findAll() {
-        return (List<BLog>) ibLogRepository.findAll();
+    public Page<BLog> findAll(PageRequest pageRequest) {
+        return ibLogRepository.findAll(pageRequest);
     }
 
     @Override

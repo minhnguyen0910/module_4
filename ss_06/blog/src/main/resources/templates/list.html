@@ -47,6 +47,9 @@
     </body>
 </table>
 
+<span><a th:if="${listBLog.hasPrevious()}" th:href="@{/blog(page=${listBLog.number}-1)}">Trước</a></span>
+<span><a th:if="${listBLog.hasNext()}" th:href="@{/blog(page=${listBLog.number}+1)}">Sau</a></span>
+
 <!-- Modal Delete-->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">

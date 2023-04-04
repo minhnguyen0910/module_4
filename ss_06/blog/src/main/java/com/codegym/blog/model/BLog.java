@@ -1,9 +1,6 @@
 package com.codegym.blog.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "blog")
@@ -18,6 +15,10 @@ public class BLog {
     @Column(name = "content", columnDefinition = "TEXT")
     private String content;
 
+    @ManyToOne
+    @JoinColumn(name = "id_type")
+    private TypeBLog typeBLog;
+
     public BLog() {
     }
 
@@ -27,6 +28,7 @@ public class BLog {
         this.date = date;
         this.content = content;
     }
+
 
     public Integer getId() {
         return id;
@@ -58,5 +60,13 @@ public class BLog {
 
     public void setContent(String content) {
         this.content = content;
+    }
+
+    public TypeBLog getTypeBLog() {
+        return typeBLog;
+    }
+
+    public void setTypeBLog(TypeBLog typeBLog) {
+        this.typeBLog = typeBLog;
     }
 }
