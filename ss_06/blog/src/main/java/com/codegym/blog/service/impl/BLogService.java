@@ -39,4 +39,14 @@ public class BLogService implements IBLogService {
     public void edit(BLog bLog) {
         ibLogRepository.save(bLog);
     }
+
+    @Override
+    public Page<BLog> findByType(Integer id, PageRequest pageRequest) {
+        return ibLogRepository.findBLogsByTypeBLog_Id(id,pageRequest);
+    }
+
+    @Override
+    public Page<BLog> findByName(String name, PageRequest pageRequest) {
+        return ibLogRepository.findByName(name,pageRequest);
+    }
 }

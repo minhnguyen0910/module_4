@@ -20,6 +20,12 @@
     <input type="text" th:field="*{content}"><br>
     <label>Date</label>
     <input type="date" th:field="*{date}"><br>
+    <label>Type</label>
+    <select th:field="*{typeBLog.id}">
+        <div th:each="type: ${listType}">
+            <option th:value="${type.id}" th:text="${type.name}"></option>
+        </div>
+    </select><br>
     <input type="submit">
 </form>
 
