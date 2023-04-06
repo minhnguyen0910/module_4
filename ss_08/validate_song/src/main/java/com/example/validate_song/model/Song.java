@@ -6,13 +6,13 @@ import javax.persistence.*;
 public class Song {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Integer id;
+    private Integer id;
     @Column(name = "name_song", columnDefinition = "varchar(800)")
-    String name;
+    private String name;
     @Column(name = "artist", columnDefinition = "varchar(300)")
-    String artist;
+    private String artist;
     @Column(name = "type", columnDefinition = "varchar(1000)")
-    String type;
+    private String type;
 
     public Song() {
     }

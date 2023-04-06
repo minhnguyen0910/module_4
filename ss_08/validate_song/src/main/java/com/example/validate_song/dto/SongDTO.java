@@ -11,13 +11,13 @@ public class SongDTO implements Validator {
     Integer id;
     @NotBlank(message = "tên bài hát không được để trống")
 //    @Max(value = 300, message = "không vượt quá 300 kí tự")
-    String name;
+    private String name;
     @NotBlank(message = "tên nghệ sĩ không được để trống")
 //    @Max(value = 500, message = "không vượt quá 500 kí tự")
-    String artist;
+    private String artist;
     @NotBlank(message = "tên thể loại không được đê trống")
 //    @Max(value = 1000, message = "không vượt quá 1000 kí tự")
-    String type;
+    private String type;
 
     public SongDTO() {
     }
@@ -41,11 +41,11 @@ public class SongDTO implements Validator {
         if (!songDTO.name.matches("^[a-zA-Z0-9.\\\\-\\\\/+=@_ ]{0,300}$")) {
             errors.rejectValue("name", "", "vui lòng khong nhập kí tự đặc biệt");
         }
-        if (!songDTO.artist.matches("^[a-zA-Z0-9.\\\\-\\\\/+=@_ ]{0,500}$")){
-            errors.rejectValue("artist","","vui long không nhập các kí tự đặc biệt");
+        if (!songDTO.artist.matches("^[a-zA-Z0-9.\\\\-\\\\/+=@_ ]{0,500}$")) {
+            errors.rejectValue("artist", "", "vui long không nhập các kí tự đặc biệt");
         }
-        if (!songDTO.type.matches("^[A-Za-z0-9, ]{0,1000}$")){
-            errors.rejectValue("type","","không nhập các kí tự đặc biệt ngoại trừ dấu phẩy");
+        if (!songDTO.type.matches("^[A-Za-z0-9, ]{0,1000}$")) {
+            errors.rejectValue("type", "", "không nhập các kí tự đặc biệt ngoại trừ dấu phẩy");
         }
     }
 

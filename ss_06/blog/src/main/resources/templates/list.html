@@ -68,8 +68,7 @@
 </span>
 <span th:if="${check==1}">
     <span><a th:if="${listBLog.hasPrevious()}" th:href="@{/blog/search(page=${listBLog.number -1}, id=${id})}">Trước</a></span>
-    <span><a th:if="${listBLog.hasNext()}"
-             th:href="@{/blog/search(page=${listBLog.number +1}, id=${id})}">Sau</a></span>
+    <span><a th:if="${listBLog.hasNext()}" th:href="@{/blog/search(page=${listBLog.number +1}, id=${id})}">Sau</a></span>
 </span>
 
 <!-- Modal Delete-->
