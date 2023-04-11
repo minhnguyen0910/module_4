@@ -1,6 +1,5 @@
 package com.example.book.controller;
 
-import com.example.book.model.Book;
 import com.example.book.model.Order;
 import com.example.book.service.IBookService;
 import com.example.book.service.IOrderService;
@@ -28,7 +27,6 @@ public class BookController {
     @GetMapping("borrow")
     public String borrow(@RequestParam(name = "id") Integer id) {
         iBookService.update(id);
-        iOrderService.save(new Order(Math.random(),1,id));
         return "redirect:/book/list";
     }
 

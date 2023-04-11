@@ -24,9 +24,6 @@ public class Order {
     public Order() {
     }
 
-    public Order(Double random, Integer i, Integer id) {
-    }
-
     public Double getId() {
         return id;
     }
